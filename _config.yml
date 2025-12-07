@@ -1,0 +1,35 @@
+title: Mahesh Gheware - Professional Portfolio
+description: Software Professional | Technology Enthusiast | Problem Solver
+author: Mahesh Gheware
+email: contact@example.com
+
+# Build settings
+theme: null
+markdown: kramdown
+
+# GitHub Pages settings
+github: [metadata]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# URL and baseurl
+url: https://ghewaremahesh.github.io
+baseurl: ""
+
+# Social links
+social:
+  linkedin: https://linkedin.com/in/mahesh-gheware-4b8aa827b/
+  github: https://github.com
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Disable Jekyll processing for specific files
+exclude:
+  - .github
+  - .gitignore
+  - README.md
+
+include:
+  - .nojekyll
