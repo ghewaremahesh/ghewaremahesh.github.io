@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs — Mahesh Gheware</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Mahesh Gheware</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="blogs.html" class="nav-link">Blogs</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <h2 class="section-title">Blog: KPI Reporting & Dashboard Best Practices</h2>
+            <div class="blog-post">
+                <p>
+                    In operations, data is only as useful as the way it’s communicated. A clean, consistent KPI report and dashboard can turn daily noise into clear direction—helping teams stay focused, leaders make faster decisions, and stakeholders see real impact. This post walks through what makes KPI reporting and dashboards work in practice, with actionable steps you can apply right away.
+                </p>
+
+                <h3>1) Choose the Right KPIs (Not “All the Things”)</h3>
+                <p><strong>Focus on outcomes, not activity.</strong></p>
+                <ul>
+                    <li><strong>Goal → Metric mapping:</strong> Start with business goals (e.g., “Improve client satisfaction”) and pick 1–2 KPIs that directly indicate progress (e.g., “Average customer satisfaction score”).</li>
+                    <li><strong>Avoid vanity metrics:</strong> High volume counts feel good, but don’t prove value (e.g., “tasks completed” is usually less meaningful than “defect rate”).</li>
+                </ul>
+                <p><strong>Tip: Use the “SMARTER” test</strong></p>
+                <ul>
+                    <li><strong>Specific:</strong> Clear what it measures</li>
+                    <li><strong>Measurable:</strong> Quantitative</li>
+                    <li><strong>Actionable:</strong> You can act on it</li>
+                    <li><strong>Relevant:</strong> Tied to key goals</li>
+                    <li><strong>Timebound:</strong> Has a timeline</li>
+                    <li><strong>Evaluated/Refined:</strong> Reviewed periodically</li>
+                </ul>
+
+                <h3>2) Build a Consistent Reporting Rhythm</h3>
+                <p><strong>Set a cadence your team can reliably deliver.</strong></p>
+                <ul>
+                    <li><strong>Weekly:</strong> Short-term trends & red flags (e.g., daily throughput, daily quality rate).</li>
+                    <li><strong>Monthly:</strong> Bigger shifts & initiative impact (e.g., process change effect, SLA compliance).</li>
+                    <li><strong>Quarterly:</strong> Strategy alignment (e.g., productivity vs. capacity, earnings impact).</li>
+                </ul>
+                <p><strong>Standardize the format.</strong> Use the same template every period so readers spend less time interpreting and more time deciding. Consistency breeds trust.</p>
+
+                <h3>3) Make the Data Actionable (Don’t Just Show Numbers)</h3>
+                <p>Each KPI should answer:</p>
+                <ul>
+                    <li><strong>What happened?</strong> (“Throughput dropped 15% this week”)</li>
+                    <li><strong>Why it happened?</strong> (“Due to onboarding delays + system outage”)</li>
+                    <li><strong>What we’ll do next?</strong> (“Add 2 backup staff + update process for faster ticket triage”)</li>
+                </ul>
+                <p><strong>Use drill-downs sparingly.</strong> Give high-level KPIs upfront, then link into deeper detail for those who need it.</p>
+
+                <h3>4) Design Dashboards for Clear Decision-Making</h3>
+                <p><strong>Layout the “decision flow.”</strong> A useful dashboard typically flows:</p>
+                <ol>
+                    <li><strong>Top-line health</strong> (overall status)</li>
+                    <li><strong>Risk indicators</strong> (where attention is needed)</li>
+                    <li><strong>Root-cause drivers</strong> (what’s driving the risk)</li>
+                    <li><strong>Actions / decisions</strong> (what to do next)</li>
+                </ol>
+                <p><strong>Use visuals wisely.</strong> Trend charts are great for progress, bar charts for comparison, and traffic-light icons help people scan fast. Avoid “data soup”: too many charts = paralysis. Aim for 5–7 visuals per dashboard.</p>
+
+                <h3>5) Keep the Data Clean & Trustworthy</h3>
+                <p><strong>Build a data hygiene routine.</strong></p>
+                <ul>
+                    <li>Define <strong>one source of truth</strong> for each metric (e.g., “team productivity comes from system X, not from emailed spreadsheets”).</li>
+                    <li>Document data definitions in a shared place (e.g., “What counts as ‘completed’?”).</li>
+                    <li>Schedule regular audits (weekly/biweekly) to confirm data matches reality.</li>
+                </ul>
+                <p><strong>Automate what you can.</strong> If possible, pull data directly from systems instead of copying/pasting; use scripts, BI tools, or spreadsheet formulas to reduce manual steps and errors.</p>
+
+                <h3>6) Get Feedback, Then Iterate</h3>
+                <p><strong>Seek fast feedback.</strong> Run a quick “dashboard walkthrough” each cycle. Ask: “What’s confusing?”, “What costs you time?”, “What should we add/remove?”</p>
+                <p><strong>Improve continuously.</strong> Add/remove KPIs based on relevance, archive metrics that are no longer meaningful, and treat the dashboard as a living tool.</p>
+
+                <h3>7) Tools & Templates (Practical Options)</h3>
+                <p><strong>Common tools people use:</strong></p>
+                <ul>
+                    <li><strong>Excel / Google Sheets</strong> — great for quick reporting and fast changes.</li>
+                    <li><strong>Power BI / Tableau / Looker</strong> — scalable dashboards for cross-team visibility.</li>
+                    <li><strong>Internal tools</strong> (Jira dashboards, ops platform dashboards) — best when integrated with actual work systems.</li>
+                </ul>
+                <p><strong>Quick template idea (Google Sheets):</strong></p>
+                <ul>
+                    <li><strong>Summary tab:</strong> Top 3–5 KPIs, latest period vs last period, trend sparkline.</li>
+                    <li><strong>Details tab:</strong> Raw data with calculations (automated formulas).</li>
+                    <li><strong>Notes tab:</strong> Key updates, action items, decision log.</li>
+                </ul>
+
+                <h3>Wrap-Up</h3>
+                <p>Great KPI reporting isn’t about having more metrics—it’s about giving your team the right signals to act. When you define the right set of KPIs, present them consistently, and tie them directly to actions, your dashboard becomes the engine that powers better operational decisions.</p>
+                <p><strong>Next practical step:</strong> Pick one KPI you want to improve this week, build a one-page report (trend + cause + action), and share it in your next team sync.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mahesh Gheware. All rights reserved.</p>
+            <p>Built with <span class="heart">♥</span> and hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
